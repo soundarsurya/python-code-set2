@@ -4,6 +4,6 @@ if num>1 and num<=1000:
 		if num%x == 0:
 			print ("No")
 	else:
-    	print("Yes")
+    		print("Yes")
 else:
 	print("enter a valid number")
