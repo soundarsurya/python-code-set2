@@ -5,4 +5,4 @@ if start and end <=100000:
 		if x%2 !=0:
 			print(x)
 else:
-	print("Enter a valid number")
+	print("Enter a valid number...")
