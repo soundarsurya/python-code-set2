@@ -1,9 +1,8 @@
-N=int(input("Enter a number N: "))
-array=input()
-num_list=list(map(int,array.split(',')))
-rev_list=list(reversed(num_list))
-print (num_list, rev_list)
-if num_list==rev_list:
-	print ("Yes")
+num = input('Enter a number b/w 1 & 1000 : ')
+if num<=1000:
+	if num == str(num)[::-1]:
+		print('yes')
+	else:
+        		print('no')
 else:
-	print ("No")
+	print("enter a valid number")
